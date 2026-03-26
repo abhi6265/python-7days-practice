@@ -1,4 +1,3 @@
-''''
 #first code in python
 print("Hello World")
 #print() gives output to the screen
@@ -46,7 +45,7 @@ age=int(input("Enter your age: "))
 print(f"my name is {name} and i am {age+5} years old")
 
 #basic arithmetic operations
-'''
+
 a=10
 b=5
 print("addition",a+b)

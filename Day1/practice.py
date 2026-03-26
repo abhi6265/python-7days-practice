@@ -17,3 +17,10 @@ print("After swapping a:",a)
 print("After swapping b:",b)
 
 
+#Take name and age → print:
+#👉 “Hello Abhishek, you are 21 years old”
+name=input("Enter Your name;")
+age=int(input("Enter Your age;"))
+print(f"Hello {name}, you are {age} years old")
+
+
