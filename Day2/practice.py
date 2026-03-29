@@ -47,15 +47,33 @@
 # •	50–74 → C
 # •	below 50 → Fail
 
-marks=int(float("enter the marks between 0 to 100:"))
-if marks<0 or marks>100:
-    print("Entered invalide ! Marks")
-elif marks >=90:
-    print("A")
-elif marks>=75:
-    print("B")
-elif marks>=50:
-    print("C")
+# marks=int(float("enter the marks between 0 to 100:"))
+# if marks<0 or marks>100:
+#     print("Entered invalide ! Marks")
+# elif marks >=90:
+#     print("A")
+# elif marks>=75:
+#     print("B")
+# elif marks>=50:
+#     print("C")
+# else:
+#     print("Fail")
+
+username="Abhi_kaushik"
+password="Abhi@6265."
+x=input("Enter your Username")
+y=input("Enter the Password:")
+if username==x:
+    print("✅")
+elif username!=x:
+    print("Wrong username! Try again")
+    x=input("Enter your Username")
+elif password==y:
+    print("✅")
+elif password!=y:
+    print("Worng password! Try again")
+    y=input("Enter the Password:")
 else:
-    print("Fail")
+    print("user Not Found!")
+
     
